@@ -1,3 +1,7 @@
 source ../venv/bin/activate
 echo "virtualenv activated"
+
+echo "Setting environment variables..."
+source variables.env
+
 python manage.py runserver 0.0.0.0:4300
